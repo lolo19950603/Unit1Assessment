@@ -1,3 +1,46 @@
 body {
-    background-color: blue;
+    font-family: "Arial", sans-serif;
+}
+
+#display {
+    text-align: center;
+    font-size: 80px;
+    margin: 50px 50px;
+}
+
+button {
+    border-style: solid;
+    border-color:rgb(160, 160, 160);
+    background-color: rgb(160, 160, 160);
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 60px;
+    border-radius: 10%;
+    height: 90px;;
+    width: 90px;
+}
+
+input {
+    font-size: 50px;
+    font-family: "Arial", sans-serif;
+    border-color:rgb(160, 160, 160);
+    box-shadow: none;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10%;
+    height: 80px;
+    width: 125px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(160, 160, 160);
+    border-style: solid;
+}
+
+#second-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
